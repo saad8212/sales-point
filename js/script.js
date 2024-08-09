@@ -2,22 +2,7 @@
 
 $(document).ready(function ($) {
 
-     jQuery('#map').CustomMap();
-
-
-     ////------- Testimonials Carousel
-    
-    var testimonial = $(".testimonial-wrapper");
-    testimonial.owlCarousel({
-        pagination: false,
-        navigation : true,
-        slideSpeed : 1000,
-        stopOnHover: true,
-        autoPlay: 3000,
-        singleItem: true,
-        transitionStyle : "fade",
-        navigationText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
-    });
+   
     
     /*----------------------------------------------------*/
 	/*	Nav Menu & Search

@@ -472,7 +472,6 @@ a.navbar-brand {
     background: url(../images/banner.webp) no-repeat;
     background-attachment: scroll;
     background-position: center center;
-   
     background-size: cover;
 }
 
@@ -860,6 +859,15 @@ iframe {
     line-height: 40px;
     letter-spacing: 3px;
 }
+@media (max-width: 768px) {
+    .call-to-action p {
+        color: #fff;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 40px;
+        letter-spacing: 3px;
+    } 
+}
 
 .call-to-action .btn-primary {
     padding: 20px;
@@ -907,7 +915,15 @@ iframe {
     line-height: 40px;
     letter-spacing: 3px;
 }
-
+@media (max-width: 768px) {
+    .call-to-action2 p {
+        color: #fff;
+        font-weight: 300;
+        font-size: 23px;
+        line-height: 40px;
+        letter-spacing: 3px;
+    }
+}
 .call-to-action2 .btn-primary {
     padding: 20px;
     font-size: 16px;

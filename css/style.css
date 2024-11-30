@@ -823,7 +823,7 @@ iframe {
 
 .call-to-action {
     position: relative;
-    background: url(../images/parallax/call-to.jpg);
+    background: url(../images/parallax/call-to.webp);
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 90%;
@@ -883,7 +883,7 @@ iframe {
 
 .call-to-action2 {
     position: relative;
-    background: url(../images/parallax/call-to2.png);
+    background: url(../images/parallax/call-to2.webp);
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 90%;

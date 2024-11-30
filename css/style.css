@@ -469,7 +469,7 @@ a.navbar-brand {
 .banner {
     text-align: center;
     color: #fff;
-    background: url(../images/banner.jpg) no-repeat;
+    background: url(../images/banner.webp) no-repeat;
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
@@ -505,6 +505,7 @@ a.navbar-brand {
     animation-duration: 2s;
     font-family: 'Oswald', sans-serif;
 }
+
 
 .banner .intro-text h1 span {
     color: #ff432e;
@@ -542,6 +543,41 @@ a.navbar-brand {
     color: #111;
 }
 
+@media (max-width: 768px) {
+    
+    .banner .intro-text h1 {    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 55px;
+    -webkit-animation: bounceIn;
+    -moz-animation: rubberBand;
+    -o-animation: bounceIn;
+    animation: bounceIn;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+    font-family: 'Oswald', sans-serif;
+}
+.banner .intro-text p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 3px;
+    margin-bottom: 55px;
+    -webkit-animation: bounceInLeft;
+    -moz-animation: fadeInLeft;
+    -o-animation: fadeInLeft;
+    animation: bounceLeft;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+}
 
 
 
